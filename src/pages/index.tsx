@@ -1,15 +1,15 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
-import styles from "../../styles/Home.module.css";
+import Head from 'next/head'
+import Image from 'next/image'
+import { Inter } from '@next/font/google'
+import styles from '../../styles/Home.module.css'
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] })
 
 type Props = {
-  title: string;
-};
+  title: string
+}
 
-export default function Home({ title = "React Avançado" }: Props) {
+export default function Home({ title = 'React Avançado' }: Props) {
   return (
     <>
       <Head>
@@ -27,7 +27,7 @@ export default function Home({ title = "React Avançado" }: Props) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              By{" "}
+              By{' '}
               <Image
                 src="/vercel.svg"
                 alt="Vercel Logo"
@@ -120,5 +120,5 @@ export default function Home({ title = "React Avançado" }: Props) {
         </div>
       </main>
     </>
-  );
+  )
 }
