@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
 
 .main {
   display: flex;
@@ -7,7 +7,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
-  font-family: 'Inter', sans-serif;
+
 }
 
 .description {
