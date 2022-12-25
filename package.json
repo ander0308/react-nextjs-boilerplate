@@ -64,8 +64,5 @@
     "name": "Anderson Santana",
     "email": "ander0308@gmail.com",
     "url": "https://github.com/ander0308"
-  },
-  "engines": {
-    "node": "v16.15.0"
   }
 }
